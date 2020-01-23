@@ -8,8 +8,10 @@ import numpy as np
 
 # url = "https://www.youtube.com/watch?v=PivWY9wn5ps"
 urls = [
-# "https://www.youtube.com/watch?v=L_XJ_s5IsQc"
-"https://www.youtube.com/watch?v=Lpjcm1F8tY8"
+# "https://www.youtube.com/watch?v=YcXzU4JOiDE"
+"https://www.youtube.com/watch?v=L_XJ_s5IsQc"
+# "https://www.youtube.com/watch?v=Lpjcm1F8tY8"
+
 # "https://www.youtube.com/watch?v=MZ6GzmrGHOY"
 # "https://www.youtube.com/watch?v=V9bAWAgzz38",
         # "https://www.youtube.com/watch?v=1aVHLL5egRY",
@@ -47,7 +49,6 @@ for url in urls:
     separator.separate_to_file(audio_file_path, 'output')
 
     # get beats
-
     # x, sr = librosa.load(audio_file_path)
     # x = np.array(x) 
     # plt.plot(x)

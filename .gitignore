@@ -108,5 +108,7 @@ __pycache__
 **/reporting
 
 pretrained_models
+downloads
+output
 docs/build
 .vscode
